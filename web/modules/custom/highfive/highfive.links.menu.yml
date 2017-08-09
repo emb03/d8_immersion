@@ -1,0 +1,22 @@
+# This file adds menu links
+# See https://www.drupal.org/docs/8/api/menu-api/providing-module-defined-menu-links
+#
+
+# TODO: Task 1) Create 'highfive.about' link with route_name to 'highfive_about_route'\
+
+highfive.about:
+  title: 'High Five Definition'
+  description: 'Watch and learn how to high five'
+  parent: main
+  route_name: highfive_about_route
+  menu_name: main
+  weight: 75
+
+
+highfive.highfive-awesome-form:
+  title: 'High Five Awesome Form'
+  description: 'Fill Me Out'
+  parent: main
+  route_name: highfive_awesome_form
+  menu_name: main
+  weight: 80

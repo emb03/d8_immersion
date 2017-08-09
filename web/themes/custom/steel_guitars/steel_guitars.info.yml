@@ -1,0 +1,27 @@
+name: Steel Guitars
+description: A starter theme for Drupal 8.
+type: theme
+core: 8.x
+base theme: classy
+regions:
+  header: Header
+  sidebar_first: 'First sidebar'
+  content: Content
+  secondary_menu: 'Secondary menu'
+  breadcrumb: 'Breadcrumb'
+  primary_menu: 'Primary menu'
+  highlighted: 'Highlighted'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+#features:
+#  - comment_user_verification
+#  - comment_user_picture
+#  - favicon
+#  - logo
+#  - node_user_picture
+
+#stylesheets-remove:
+#  - core/assets/vendor/normalize-css/normalize.css
+#  - core/modules/system/css/system.module.css
+#  - core/modules/system/css/system.theme.css
+#  - core/modules/views/css/views.module.css

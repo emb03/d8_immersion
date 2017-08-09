@@ -1,0 +1,205 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+html { font-size: 62.5%; } /* font-size: 62.5% now means that 1.0 rem = 10px */
+*{font-size: 1.4rem;line-height: 1.6rem; }
+h1 {
+    font-size:3rem;
+}
+h2 {
+    font-size:2.1rem;
+}
+a:link    {
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+    color: #689;
+}
+a:visited {
+    /* Applies to all visited links */
+    text-decoration:  none;
+    color:gray;
+}
+a:hover   {
+    /* Applies to links under the pointer */
+    text-decoration:  underline;
+}
+a:active  {
+    /* Applies to activated links */
+    text-decoration:  underline;
+}
+a.is-active {
+    color:#689;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+li.featured-artists-menu {
+    display: inline-block;
+    display: inline-block;
+    padding: 10px 30px 0 0;
+}
+#wrapper {
+    overflow:hidden;
+}
+#header-region {
+    background-color: #c0c0c0;
+    background-image: linear-gradient(0deg, #c0c0c0 0%, #dcdcdc 100%);
+}
+.site-name {
+    text-indent: -9999px;
+}
+.site-slogan {
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    color: #666;
+    line-height: 0;
+}
+a.site-logo {
+    padding-left: 10px;
+}
+#block-steel-guitars-search {
+    float: right;
+    padding:10px 10px 0 0;
+}
+#block-steel-guitars-branding {
+    padding-top: 10px;
+}
+nav#block-featuredartistsandmakers {
+    background-color: #2f2f2f;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+aside#sidebar_second a {
+    color: #2f2f2f;
+    padding-right:10px;
+}
+input#edit-submit-artist-by-song{
+    background-color: #ccc;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.form-item-field-tags-target-id-1 label {
+    float: left;
+    font-weight: 600;
+    padding-right: 18px;
+}
+nav#block-featuredartistsandmakers a {
+    color:#fdfdfd;
+    font-size:16px;
+    font-weight: 600;
+}
+nav#block-steel-guitars-featured.block.block-menu.navigation.menu--featured ul.top-mennu li.featured-artists-menu ul.featured-top,
+nav#block-steel-guitars-featured.block.block-menu.navigation.menu--featured ul.top-mennu li.featured-artists-menu a {
+    color:#fdfdfd;
+    font-size:16px;
+    font-weight: 600;
+}
+#sidebar_first.sidebar_first .field.field--name-field-home-page-image-block.field--type-image.field--label-hidden.field__items .field__item img {
+    padding-top: 20px;
+}
+block-featuredartistsandmakers-menu ul.top-mennu {
+    margin: 0 auto
+}
+#block-steel-guitars-main-menu ul.top-mennu {
+    padding-left:20px;
+}
+#block-steel-guitars-rsvpblock {
+    float: right;
+    clear: both;
+    padding-right: 56px;
+}
+td.views-field.views-field-title-1.views-align-left {
+    padding-right: 100px;
+}
+nav#block-sidebarmenu {
+    background-color: #fdfdfd;
+    padding: 10px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+}
+footer#footer, footer a {
+    background-color: #2f2f2f;
+    padding-top: 20px;
+    color: #fdfdfd;
+    font-weight: 600;
+}
+.footer_region {
+    position: relative;
+    margin: 0 auto;
+    width:100%;
+}
+.content {
+    background-color: #fdfdfd;
+    /*border: #2f2f2f 1px solid;*/
+    padding: 10px;
+}
+.comment__meta > a {
+    background-color: transparent;
+}
+.views-field.views-field-title {
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 10px 0;
+    margin-top: 16px;
+    margin-left: 18px;
+}
+.high-five-basic-form, .rsvplist-email-form, form#user-login-form {
+    /*background-color: #fdfdfd;*/
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    padding: 10px;
+    background-color:#fdfdfd;
+}
+#block-steel-guitars-breadcrumbs.block.block-system.block-system-breadcrumb-block nav.breadcrumb ol li a {
+    display: none;
+}
+a.username {
+    background-color: transparent;
+}
+input#edit-keys {
+    border-radius: 4px;
+    height: 33px;
+    width:60%;
+}
+.button.js-form-submit.form-submit {
+    background-color: #337ab7;
+    border-radius: 4px;
+    color: #fff;
+}
+.js-comment a {
+    background-color: transparent;
+}
+.comments-shaded {
+    background-color: #eee;
+    padding: 10px;
+}
+#block-steel-guitars-featuredimagesonhomepage-2 {
+    background-color: #eee;
+    margin-top: 10px;
+    padding: 6px;
+    margin-bottom: 6px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.46);
+}
+#block-steel-guitars-featuredimagesonhomepage-2 em {
+    float: right;
+    font-weight: 600;
+}
+td.views-field.views-field-field-i-want-to-say p {
+    margin: 0;
+}
+.video-embed-field-provider-youtube.video-embed-field-responsive-video li {
+    margin: 0;
+}
+img.image-style-medium {
+    margin-left:18px;
+}
