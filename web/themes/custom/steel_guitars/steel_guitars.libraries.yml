@@ -1,0 +1,14 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.css: {}
+      css/style.css: {}
+  js:
+  dependencies:
+      - core/jquery
+      - core/drupal
+custom-stuff:
+  css:
+    theme:
+      css/layout.css: {}
